@@ -1,0 +1,92 @@
+[2024-12-13T03:10:39.662-0800] {processor.py:186} INFO - Started process (PID=82178) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-13T03:10:39.663-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-12-13T03:10:39.664-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:10:39.664-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-13T03:10:39.680-0800] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-13T03:10:39.928-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:10:39.928-0800] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_complex
+[2024-12-13T03:10:39.937-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:10:39.937-0800] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_complex
+[2024-12-13T03:10:39.944-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:10:39.944-0800] {override.py:1911} INFO - Created Permission View: can read on DAG:example_complex
+[2024-12-13T03:10:39.952-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:10:39.952-0800] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_complex
+[2024-12-13T03:10:39.958-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:10:39.958-0800] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_complex
+[2024-12-13T03:10:39.964-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:10:39.963-0800] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_complex
+[2024-12-13T03:10:39.969-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:10:39.969-0800] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_complex
+[2024-12-13T03:10:39.970-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:10:39.970-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:10:39.982-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:10:39.982-0800] {dag.py:3262} INFO - Creating ORM DAG for example_complex
+[2024-12-13T03:10:39.983-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:10:39.983-0800] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-12-13T03:10:39.999-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.343 seconds
+[2024-12-13T03:15:41.084-0800] {processor.py:186} INFO - Started process (PID=83159) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-13T03:15:41.086-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-12-13T03:15:41.087-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:15:41.087-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-13T03:15:41.101-0800] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-13T03:15:41.277-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:15:41.276-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:15:41.288-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:15:41.288-0800] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-12-13T03:15:41.307-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.229 seconds
+[2024-12-13T03:20:10.742-0800] {processor.py:186} INFO - Started process (PID=84093) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-13T03:20:10.743-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-12-13T03:20:10.744-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:20:10.744-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-13T03:20:10.760-0800] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-13T03:20:10.951-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:20:10.950-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:20:10.961-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:20:10.961-0800] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-12-13T03:20:10.977-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.242 seconds
+[2024-12-13T03:24:47.351-0800] {processor.py:186} INFO - Started process (PID=85027) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-13T03:24:47.352-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-12-13T03:24:47.353-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:24:47.353-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-13T03:24:47.369-0800] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-13T03:24:47.532-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:24:47.532-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:24:47.543-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:24:47.542-0800] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-12-13T03:24:47.559-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.214 seconds
+[2024-12-13T03:29:18.578-0800] {processor.py:186} INFO - Started process (PID=85952) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-13T03:29:18.579-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-12-13T03:29:18.580-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:29:18.580-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-13T03:29:18.596-0800] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-13T03:29:18.779-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:29:18.778-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:29:18.791-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:29:18.790-0800] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-12-13T03:29:18.809-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.238 seconds
+[2024-12-13T03:34:05.381-0800] {processor.py:186} INFO - Started process (PID=86975) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-13T03:34:05.383-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-12-13T03:34:05.385-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:34:05.384-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-13T03:34:05.399-0800] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-13T03:34:05.578-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:34:05.578-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:34:05.591-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:34:05.590-0800] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-12-13T03:34:05.607-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.232 seconds
+[2024-12-13T03:39:04.738-0800] {processor.py:186} INFO - Started process (PID=88022) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-13T03:39:04.740-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-12-13T03:39:04.741-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:39:04.741-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-13T03:39:04.754-0800] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-13T03:39:04.928-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:39:04.928-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:39:04.940-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:39:04.940-0800] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-12-13T03:39:04.957-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.224 seconds
+[2024-12-13T03:43:29.884-0800] {processor.py:186} INFO - Started process (PID=88942) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-13T03:43:29.885-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-12-13T03:43:29.887-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:43:29.886-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-13T03:43:29.900-0800] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-13T03:43:30.063-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:43:30.063-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:43:30.073-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:43:30.073-0800] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-12-13T03:43:30.090-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.211 seconds
+[2024-12-13T03:47:56.379-0800] {processor.py:186} INFO - Started process (PID=89839) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-13T03:47:56.381-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-12-13T03:47:56.382-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:47:56.382-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-13T03:47:56.396-0800] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-13T03:47:56.561-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:47:56.560-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:47:56.572-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:47:56.571-0800] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-12-13T03:47:56.588-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.214 seconds
+[2024-12-13T03:52:33.369-0800] {processor.py:186} INFO - Started process (PID=90807) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-13T03:52:33.371-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-12-13T03:52:33.372-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:52:33.372-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-13T03:52:33.385-0800] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-13T03:52:33.550-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:52:33.549-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:52:33.560-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:52:33.560-0800] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-12-13T03:52:33.577-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.213 seconds
+[2024-12-13T03:57:23.926-0800] {processor.py:186} INFO - Started process (PID=91961) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-13T03:57:23.929-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-12-13T03:57:23.931-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:57:23.930-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-13T03:57:23.948-0800] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-13T03:57:24.372-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:57:24.371-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:57:24.391-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:57:24.390-0800] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-12-13T03:57:24.437-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.517 seconds
+[2024-12-13T05:50:59.695-0800] {processor.py:186} INFO - Started process (PID=93441) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-13T05:50:59.697-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-12-13T05:50:59.698-0800] {logging_mixin.py:190} INFO - [2024-12-13T05:50:59.698-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-13T05:50:59.713-0800] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-13T05:50:59.878-0800] {logging_mixin.py:190} INFO - [2024-12-13T05:50:59.878-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T05:50:59.889-0800] {logging_mixin.py:190} INFO - [2024-12-13T05:50:59.889-0800] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-12-13T05:50:59.905-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.216 seconds

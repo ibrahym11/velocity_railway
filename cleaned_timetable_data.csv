@@ -1,0 +1,109 @@
+Station ID,Train UID,Departure Time,Destination,Platform,Operator
+crs:RMD,L61660,17:12,Unknown,1,South Western Railway
+crs:RMD,L58639,17:15,Unknown,2,South Western Railway
+crs:RMD,C13725,17:17,Unknown,6,London Underground
+crs:RMD,L60505,17:19,Unknown,2,South Western Railway
+crs:RMD,P90783,17:20,Unknown,5,London Overground
+crs:RMD,L62166,17:23,Unknown,1,South Western Railway
+crs:RMD,L61330,17:28,Unknown,1,South Western Railway
+crs:RMD,L62172,17:28,Unknown,2,South Western Railway
+crs:RMD,C13746,17:29,Unknown,7,London Underground
+crs:RMD,P90789,17:32,Unknown,4,London Overground
+crs:RMD,L57374,17:33,Unknown,1,South Western Railway
+crs:RMD,L62341,17:33,Unknown,2,South Western Railway
+crs:RMD,L58643,17:37,Unknown,1,South Western Railway
+crs:RMD,C13802,17:38,Unknown,6,London Underground
+crs:RMD,L61663,17:42,Unknown,1,South Western Railway
+crs:RMD,P90795,17:43,Unknown,5,London Overground
+crs:RMD,L58648,17:45,Unknown,2,South Western Railway
+crs:RMD,C13489,17:49,Unknown,7,London Underground
+crs:RMD,L60508,17:49,Unknown,2,South Western Railway
+crs:RMD,L62176,17:53,Unknown,1,South Western Railway
+crs:RMD,P90801,17:57,Unknown,3,London Overground
+crs:RMD,L61333,17:58,Unknown,1,South Western Railway
+crs:RMD,L62180,17:58,Unknown,2,South Western Railway
+crs:RMD,C13804,17:59,Unknown,6,London Underground
+crs:RMD,L60090,18:03,Unknown,1,South Western Railway
+crs:RMD,L62343,18:04,Unknown,2,South Western Railway
+crs:RMD,L58652,18:06,Unknown,1,South Western Railway
+crs:RMD,P90807,18:08,Unknown,4,London Overground
+crs:RMD,C13769,18:10,Unknown,7,London Underground
+crs:RMD,L56966,18:11,Unknown,2,South Western Railway
+crs:RMD,L61666,18:12,Unknown,1,South Western Railway
+crs:RMD,C13775,18:15,Unknown,5,London Underground
+crs:RMD,L58657,18:16,Unknown,2,South Western Railway
+crs:RMD,L60510,18:19,Unknown,2,South Western Railway
+crs:RMD,P90812,18:20,Unknown,3,London Overground
+crs:RMD,C13486,18:22,Unknown,6,London Underground
+crs:RMD,L62186,18:23,Unknown,1,South Western Railway
+crs:RMD,C13551,18:27,Unknown,7,London Underground
+crs:RMD,L61335,18:28,Unknown,1,South Western Railway
+crs:RMD,L62192,18:28,Unknown,2,South Western Railway
+crs:RMD,P90817,18:32,Unknown,4,London Overground
+crs:RMD,L57378,18:33,Unknown,1,South Western Railway
+crs:RMD,L62344,18:33,Unknown,2,South Western Railway
+crs:RMD,L58661,18:37,Unknown,1,South Western Railway
+crs:RMD,C13787,18:39,Unknown,6,London Underground
+crs:RMD,L61669,18:42,Unknown,1,South Western Railway
+crs:RMD,L58666,18:45,Unknown,2,South Western Railway
+crs:RMD,P90822,18:45,Unknown,3,London Overground
+crs:RMD,C13774,18:48,Unknown,7,London Underground
+crs:RMD,L60513,18:49,Unknown,2,South Western Railway
+WAT,L59977,17:12,Unknown,5,South Western Railway
+WAT,L57374,17:13,Unknown,16,South Western Railway
+WAT,L61663,17:15,Unknown,24,South Western Railway
+WAT,L56959,17:15,Unknown,6,South Western Railway
+WAT,L61008,17:17,Unknown,4,South Western Railway
+WAT,L58643,17:20,Unknown,22,South Western Railway
+WAT,L58395,17:20,Unknown,14,South Western Railway
+WAT,L59372,17:20,Unknown,3,South Western Railway
+WAT,L61826,17:22,Unknown,19,South Western Railway
+WAT,L57289,17:23,Unknown,13,South Western Railway
+WAT,L56859,17:24,Unknown,1,South Western Railway
+WAT,Y00094,17:25,Unknown,10,South Western Railway
+WAT,L60510,17:27,Unknown,5,South Western Railway
+WAT,L61333,17:30,Unknown,18,South Western Railway
+WAT,L57586,17:30,Unknown,11,South Western Railway
+WAT,L59476,17:32,Unknown,12,South Western Railway
+WAT,L59696,17:33,Unknown,4,South Western Railway
+WAT,L62176,17:33,Unknown,21,South Western Railway
+WAT,L57998,17:35,Unknown,8,South Western Railway
+WAT,L60331,17:36,Unknown,3,South Western Railway
+WAT,L62344,17:37,Unknown,23,South Western Railway
+WAT,L58936,17:39,Unknown,2,South Western Railway
+WAT,L59983,17:42,Unknown,5,South Western Railway
+WAT,L60090,17:43,Unknown,17,South Western Railway
+WAT,L61666,17:45,Unknown,22,South Western Railway
+WAT,L56961,17:45,Unknown,15,South Western Railway
+WAT,L61014,17:47,Unknown,4,South Western Railway
+WAT,L60751,17:50,Unknown,14,South Western Railway
+WAT,L58652,17:50,Unknown,24,South Western Railway
+WAT,L59378,17:50,Unknown,3,South Western Railway
+WAT,L61831,17:52,Unknown,19,South Western Railway
+WAT,L57294,17:53,Unknown,7,South Western Railway
+WAT,L56868,17:54,Unknown,1,South Western Railway
+WAT,Y00098,17:55,Unknown,13,South Western Railway
+WAT,L60513,17:57,Unknown,5,South Western Railway
+WAT,L61335,18:00,Unknown,23,South Western Railway
+WAT,L57596,18:00,Unknown,9,South Western Railway
+WAT,L58311,18:02,Unknown,8,South Western Railway
+WAT,L59706,18:03,Unknown,4,South Western Railway
+WAT,L62186,18:03,Unknown,21,South Western Railway
+WAT,L58158,18:05,Unknown,16,South Western Railway
+WAT,L60341,18:06,Unknown,2,South Western Railway
+WAT,Y01013,18:07,Unknown,12,South Western Railway
+WAT,L62346,18:07,Unknown,22,South Western Railway
+WAT,L58945,18:09,Unknown,1,South Western Railway
+WAT,L59990,18:12,Unknown,5,South Western Railway
+WAT,L57378,18:13,Unknown,24,South Western Railway
+WAT,Y04317,18:15,Unknown,7,South Western Railway
+WAT,L61669,18:15,Unknown,18,South Western Railway
+WAT,L61020,18:17,Unknown,4,South Western Railway
+LYM,G45121,17:17,Unknown,Unknown,Great Western Railway
+LYM,G45192,17:30,Unknown,Unknown,Great Western Railway
+LYM,G45139,17:46,Unknown,Unknown,Great Western Railway
+LYM,G43924,18:00,Unknown,Unknown,Great Western Railway
+LYM,G45150,18:16,Unknown,Unknown,Great Western Railway
+LYM,G45185,18:30,Unknown,Unknown,Great Western Railway
+LYM,G45126,18:46,Unknown,Unknown,Great Western Railway
+LYM,G44111,19:00,Unknown,Unknown,Great Western Railway

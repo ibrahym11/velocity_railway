@@ -1,0 +1,192 @@
+[2024-12-13T03:09:27.079-0800] {processor.py:186} INFO - Started process (PID=81929) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:09:27.081-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-13T03:09:27.083-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:09:27.083-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:09:27.103-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:09:27.272-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:09:27.272-0800] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-12-13T03:09:27.392-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:09:27.392-0800] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_sensors
+[2024-12-13T03:09:27.402-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:09:27.401-0800] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_sensors
+[2024-12-13T03:09:27.408-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:09:27.408-0800] {override.py:1911} INFO - Created Permission View: can read on DAG:example_sensors
+[2024-12-13T03:09:27.416-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:09:27.416-0800] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_sensors
+[2024-12-13T03:09:27.423-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:09:27.422-0800] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_sensors
+[2024-12-13T03:09:27.429-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:09:27.428-0800] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_sensors
+[2024-12-13T03:09:27.434-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:09:27.434-0800] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_sensors
+[2024-12-13T03:09:27.435-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:09:27.435-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:09:27.448-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:09:27.447-0800] {dag.py:3262} INFO - Creating ORM DAG for example_sensors
+[2024-12-13T03:09:27.448-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:09:27.448-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-13T03:09:27.466-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.394 seconds
+[2024-12-13T03:12:28.202-0800] {processor.py:186} INFO - Started process (PID=82530) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:12:28.203-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-13T03:12:28.205-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:12:28.204-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:12:28.230-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:12:28.390-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:12:28.390-0800] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-12-13T03:12:28.419-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:12:28.418-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:12:28.430-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:12:28.429-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-13T03:12:28.449-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.253 seconds
+[2024-12-13T03:15:03.317-0800] {processor.py:186} INFO - Started process (PID=83034) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:15:03.319-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-13T03:15:03.321-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:15:03.320-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:15:03.341-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:15:03.481-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:15:03.481-0800] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-12-13T03:15:03.506-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:15:03.505-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:15:03.516-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:15:03.515-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-13T03:15:03.532-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.220 seconds
+[2024-12-13T03:17:23.831-0800] {processor.py:186} INFO - Started process (PID=83500) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:17:23.832-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-13T03:17:23.833-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:17:23.833-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:17:23.852-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:17:23.999-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:17:23.999-0800] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-12-13T03:17:24.024-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:17:24.024-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:17:24.035-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:17:24.034-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-13T03:17:24.051-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.226 seconds
+[2024-12-13T03:19:40.213-0800] {processor.py:186} INFO - Started process (PID=83990) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:19:40.215-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-13T03:19:40.216-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:19:40.216-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:19:40.236-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:19:40.374-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:19:40.374-0800] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-12-13T03:19:40.398-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:19:40.398-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:19:40.408-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:19:40.408-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-13T03:19:40.423-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.216 seconds
+[2024-12-13T03:21:49.887-0800] {processor.py:186} INFO - Started process (PID=84440) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:21:49.889-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-13T03:21:49.890-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:21:49.890-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:21:49.918-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:21:50.068-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:21:50.068-0800] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-12-13T03:21:50.094-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:21:50.094-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:21:50.104-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:21:50.104-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-13T03:21:50.122-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.241 seconds
+[2024-12-13T03:24:10.478-0800] {processor.py:186} INFO - Started process (PID=84905) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:24:10.480-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-13T03:24:10.481-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:24:10.481-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:24:10.503-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:24:10.667-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:24:10.667-0800] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-12-13T03:24:10.693-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:24:10.693-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:24:10.704-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:24:10.704-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-13T03:24:10.721-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.249 seconds
+[2024-12-13T03:26:29.050-0800] {processor.py:186} INFO - Started process (PID=85378) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:26:29.052-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-13T03:26:29.054-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:26:29.053-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:26:29.075-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:26:29.215-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:26:29.214-0800] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-12-13T03:26:29.239-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:26:29.238-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:26:29.248-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:26:29.248-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-13T03:26:29.265-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.221 seconds
+[2024-12-13T03:28:46.522-0800] {processor.py:186} INFO - Started process (PID=85850) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:28:46.523-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-13T03:28:46.544-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:28:46.543-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:28:46.577-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:28:46.736-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:28:46.736-0800] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-12-13T03:28:46.765-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:28:46.764-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:28:46.775-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:28:46.775-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-13T03:28:46.793-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.277 seconds
+[2024-12-13T03:31:05.621-0800] {processor.py:186} INFO - Started process (PID=86303) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:31:05.623-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-13T03:31:05.624-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:31:05.624-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:31:05.644-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:31:05.787-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:31:05.787-0800] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-12-13T03:31:05.812-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:31:05.812-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:31:05.822-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:31:05.822-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-13T03:31:05.840-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.226 seconds
+[2024-12-13T03:33:27.410-0800] {processor.py:186} INFO - Started process (PID=86831) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:33:27.416-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-13T03:33:27.418-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:33:27.418-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:33:27.483-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:33:27.644-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:33:27.644-0800] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-12-13T03:33:27.672-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:33:27.672-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:33:27.689-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:33:27.689-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-13T03:33:27.705-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.302 seconds
+[2024-12-13T03:35:54.706-0800] {processor.py:186} INFO - Started process (PID=87402) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:35:54.708-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-13T03:35:54.709-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:35:54.709-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:35:54.735-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:35:54.915-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:35:54.915-0800] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-12-13T03:35:54.944-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:35:54.943-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:35:54.954-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:35:54.954-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-13T03:35:54.972-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.273 seconds
+[2024-12-13T03:38:26.669-0800] {processor.py:186} INFO - Started process (PID=87906) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:38:26.671-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-13T03:38:26.675-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:38:26.675-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:38:26.698-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:38:26.879-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:38:26.879-0800] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-12-13T03:38:26.910-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:38:26.910-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:38:26.923-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:38:26.922-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-13T03:38:26.941-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.278 seconds
+[2024-12-13T03:40:44.190-0800] {processor.py:186} INFO - Started process (PID=88355) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:40:44.191-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-13T03:40:44.192-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:40:44.192-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:40:44.214-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:40:44.360-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:40:44.359-0800] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-12-13T03:40:44.389-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:40:44.389-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:40:44.400-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:40:44.400-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-13T03:40:44.421-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.237 seconds
+[2024-12-13T03:42:58.017-0800] {processor.py:186} INFO - Started process (PID=88836) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:42:58.019-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-13T03:42:58.021-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:42:58.020-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:42:58.041-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:42:58.190-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:42:58.189-0800] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-12-13T03:42:58.216-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:42:58.216-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:42:58.228-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:42:58.227-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-13T03:42:58.245-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.233 seconds
+[2024-12-13T03:45:11.566-0800] {processor.py:186} INFO - Started process (PID=89285) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:45:11.568-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-13T03:45:11.570-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:45:11.569-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:45:11.591-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:45:11.757-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:45:11.757-0800] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-12-13T03:45:11.791-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:45:11.791-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:45:11.802-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:45:11.802-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-13T03:45:11.820-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.260 seconds
+[2024-12-13T03:47:24.147-0800] {processor.py:186} INFO - Started process (PID=89729) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:47:24.149-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-13T03:47:24.150-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:47:24.150-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:47:24.171-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:47:24.325-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:47:24.325-0800] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-12-13T03:47:24.352-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:47:24.352-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:47:24.364-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:47:24.364-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-13T03:47:24.383-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.242 seconds
+[2024-12-13T03:49:40.338-0800] {processor.py:186} INFO - Started process (PID=90200) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:49:40.341-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-13T03:49:40.343-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:49:40.343-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:49:40.372-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:49:40.564-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:49:40.564-0800] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-12-13T03:49:40.591-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:49:40.591-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:49:40.601-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:49:40.601-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-13T03:49:40.621-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.287 seconds
+[2024-12-13T03:51:58.170-0800] {processor.py:186} INFO - Started process (PID=90690) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:51:58.172-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-13T03:51:58.173-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:51:58.173-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:51:58.192-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:51:58.339-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:51:58.339-0800] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-12-13T03:51:58.363-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:51:58.363-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:51:58.373-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:51:58.373-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-13T03:51:58.390-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.225 seconds
+[2024-12-13T03:54:20.624-0800] {processor.py:186} INFO - Started process (PID=91192) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:54:20.626-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-13T03:54:20.627-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:54:20.627-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:54:20.649-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:54:20.819-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:54:20.819-0800] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-12-13T03:54:20.846-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:54:20.846-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:54:20.858-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:54:20.858-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-13T03:54:20.875-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.256 seconds
+[2024-12-13T03:56:44.989-0800] {processor.py:186} INFO - Started process (PID=91788) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:56:44.991-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-13T03:56:44.992-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:56:44.992-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:56:45.015-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:56:45.185-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:56:45.185-0800] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-12-13T03:56:45.211-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:56:45.211-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:56:45.223-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:56:45.222-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-13T03:56:45.240-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.257 seconds
+[2024-12-13T03:59:12.508-0800] {processor.py:186} INFO - Started process (PID=92427) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:59:12.510-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-13T03:59:12.511-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:59:12.511-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:59:12.532-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T03:59:12.697-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:59:12.697-0800] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-12-13T03:59:12.728-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:59:12.727-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:59:12.740-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:59:12.739-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-13T03:59:12.758-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.257 seconds
+[2024-12-13T05:50:20.206-0800] {processor.py:186} INFO - Started process (PID=93270) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T05:50:20.208-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-12-13T05:50:20.210-0800] {logging_mixin.py:190} INFO - [2024-12-13T05:50:20.210-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T05:50:20.235-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-12-13T05:50:20.378-0800] {logging_mixin.py:190} INFO - [2024-12-13T05:50:20.378-0800] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-12-13T05:50:20.404-0800] {logging_mixin.py:190} INFO - [2024-12-13T05:50:20.404-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T05:50:20.413-0800] {logging_mixin.py:190} INFO - [2024-12-13T05:50:20.413-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-12-13T05:50:20.429-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.229 seconds

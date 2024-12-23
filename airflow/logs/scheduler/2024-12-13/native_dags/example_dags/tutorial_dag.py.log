@@ -1,0 +1,176 @@
+[2024-12-13T03:08:35.321-0800] {processor.py:186} INFO - Started process (PID=81763) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:08:35.322-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-12-13T03:08:35.324-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:08:35.324-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:08:35.406-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:08:35.592-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:08:35.591-0800] {override.py:1911} INFO - Created Permission View: can delete on DAG:tutorial_dag
+[2024-12-13T03:08:35.601-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:08:35.601-0800] {override.py:1911} INFO - Created Permission View: can edit on DAG:tutorial_dag
+[2024-12-13T03:08:35.607-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:08:35.606-0800] {override.py:1911} INFO - Created Permission View: can read on DAG:tutorial_dag
+[2024-12-13T03:08:35.615-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:08:35.614-0800] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:tutorial_dag
+[2024-12-13T03:08:35.620-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:08:35.620-0800] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:tutorial_dag
+[2024-12-13T03:08:35.626-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:08:35.625-0800] {override.py:1911} INFO - Created Permission View: can read on DAG Run:tutorial_dag
+[2024-12-13T03:08:35.631-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:08:35.631-0800] {override.py:1911} INFO - Created Permission View: can create on DAG Run:tutorial_dag
+[2024-12-13T03:08:35.632-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:08:35.631-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:08:35.642-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:08:35.642-0800] {dag.py:3262} INFO - Creating ORM DAG for tutorial_dag
+[2024-12-13T03:08:35.643-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:08:35.643-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-12-13T03:08:35.658-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.343 seconds
+[2024-12-13T03:11:36.591-0800] {processor.py:186} INFO - Started process (PID=82356) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:11:36.593-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-12-13T03:11:36.594-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:11:36.594-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:11:36.670-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:11:36.786-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:11:36.786-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:11:36.797-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:11:36.797-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-12-13T03:11:36.816-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.231 seconds
+[2024-12-13T03:14:11.643-0800] {processor.py:186} INFO - Started process (PID=82849) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:14:11.644-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-12-13T03:14:11.646-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:14:11.645-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:14:11.720-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:14:11.836-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:14:11.835-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:14:11.848-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:14:11.847-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-12-13T03:14:11.865-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.229 seconds
+[2024-12-13T03:16:34.604-0800] {processor.py:186} INFO - Started process (PID=83340) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:16:34.606-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-12-13T03:16:34.607-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:16:34.607-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:16:34.681-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:16:34.790-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:16:34.789-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:16:34.800-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:16:34.799-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-12-13T03:16:34.818-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.220 seconds
+[2024-12-13T03:18:52.236-0800] {processor.py:186} INFO - Started process (PID=83808) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:18:52.237-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-12-13T03:18:52.238-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:18:52.238-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:18:52.313-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:18:52.428-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:18:52.427-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:18:52.439-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:18:52.439-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-12-13T03:18:52.458-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.228 seconds
+[2024-12-13T03:21:00.550-0800] {processor.py:186} INFO - Started process (PID=84262) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:21:00.551-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-12-13T03:21:00.552-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:21:00.552-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:21:00.625-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:21:00.732-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:21:00.731-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:21:00.743-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:21:00.743-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-12-13T03:21:00.759-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.215 seconds
+[2024-12-13T03:23:22.308-0800] {processor.py:186} INFO - Started process (PID=84740) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:23:22.310-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-12-13T03:23:22.311-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:23:22.311-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:23:22.384-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:23:22.495-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:23:22.494-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:23:22.505-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:23:22.505-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-12-13T03:23:22.522-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.220 seconds
+[2024-12-13T03:25:39.758-0800] {processor.py:186} INFO - Started process (PID=85217) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:25:39.760-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-12-13T03:25:39.762-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:25:39.762-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:25:39.836-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:25:39.939-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:25:39.939-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:25:39.950-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:25:39.950-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-12-13T03:25:39.967-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.215 seconds
+[2024-12-13T03:27:54.511-0800] {processor.py:186} INFO - Started process (PID=85675) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:27:54.527-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-12-13T03:27:54.528-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:27:54.528-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:27:54.609-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:27:54.711-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:27:54.710-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:27:54.720-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:27:54.720-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-12-13T03:27:54.743-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.238 seconds
+[2024-12-13T03:30:12.341-0800] {processor.py:186} INFO - Started process (PID=86132) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:30:12.343-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-12-13T03:30:12.344-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:30:12.343-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:30:12.416-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:30:12.514-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:30:12.514-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:30:12.524-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:30:12.524-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-12-13T03:30:12.542-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.206 seconds
+[2024-12-13T03:32:36.287-0800] {processor.py:186} INFO - Started process (PID=86629) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:32:36.295-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-12-13T03:32:36.296-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:32:36.296-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:32:36.456-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:32:36.608-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:32:36.607-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:32:36.687-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:32:36.687-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-12-13T03:32:36.728-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.450 seconds
+[2024-12-13T03:35:03.985-0800] {processor.py:186} INFO - Started process (PID=87190) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:35:03.986-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-12-13T03:35:03.988-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:35:03.988-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:35:04.073-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:35:04.208-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:35:04.208-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:35:04.220-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:35:04.220-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-12-13T03:35:04.238-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.259 seconds
+[2024-12-13T03:37:30.843-0800] {processor.py:186} INFO - Started process (PID=87723) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:37:30.844-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-12-13T03:37:30.845-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:37:30.845-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:37:30.922-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:37:31.028-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:37:31.027-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:37:31.037-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:37:31.037-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-12-13T03:37:31.056-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.219 seconds
+[2024-12-13T03:39:56.032-0800] {processor.py:186} INFO - Started process (PID=88196) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:39:56.034-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-12-13T03:39:56.035-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:39:56.035-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:39:56.112-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:39:56.231-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:39:56.230-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:39:56.243-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:39:56.242-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-12-13T03:39:56.259-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.233 seconds
+[2024-12-13T03:42:08.300-0800] {processor.py:186} INFO - Started process (PID=88662) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:42:08.302-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-12-13T03:42:08.303-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:42:08.303-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:42:08.380-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:42:08.489-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:42:08.488-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:42:08.498-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:42:08.498-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-12-13T03:42:08.514-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.220 seconds
+[2024-12-13T03:44:21.324-0800] {processor.py:186} INFO - Started process (PID=89115) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:44:21.326-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-12-13T03:44:21.327-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:44:21.327-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:44:21.406-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:44:21.514-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:44:21.513-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:44:21.524-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:44:21.524-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-12-13T03:44:21.552-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.233 seconds
+[2024-12-13T03:46:36.550-0800] {processor.py:186} INFO - Started process (PID=89575) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:46:36.551-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-12-13T03:46:36.552-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:46:36.552-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:46:36.629-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:46:36.726-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:46:36.725-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:46:36.736-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:46:36.735-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-12-13T03:46:36.752-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.208 seconds
+[2024-12-13T03:48:49.976-0800] {processor.py:186} INFO - Started process (PID=90034) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:48:49.979-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-12-13T03:48:49.999-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:48:49.998-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:48:50.089-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:48:50.205-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:48:50.204-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:48:50.216-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:48:50.216-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-12-13T03:48:50.234-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.263 seconds
+[2024-12-13T03:51:08.020-0800] {processor.py:186} INFO - Started process (PID=90526) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:51:08.022-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-12-13T03:51:08.023-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:51:08.023-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:51:08.095-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:51:08.219-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:51:08.218-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:51:08.231-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:51:08.231-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-12-13T03:51:08.256-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.242 seconds
+[2024-12-13T03:53:27.304-0800] {processor.py:186} INFO - Started process (PID=90995) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:53:27.306-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-12-13T03:53:27.308-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:53:27.308-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:53:27.385-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:53:27.493-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:53:27.492-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:53:27.503-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:53:27.503-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-12-13T03:53:27.520-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.222 seconds
+[2024-12-13T03:55:48.802-0800] {processor.py:186} INFO - Started process (PID=91530) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:55:48.804-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-12-13T03:55:48.805-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:55:48.805-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:55:48.882-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:55:49.006-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:55:49.006-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:55:49.018-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:55:49.018-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-12-13T03:55:49.037-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.243 seconds
+[2024-12-13T03:58:20.537-0800] {processor.py:186} INFO - Started process (PID=92202) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:58:20.539-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-12-13T03:58:20.540-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:58:20.540-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:58:20.622-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T03:58:20.742-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:58:20.742-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T03:58:20.755-0800] {logging_mixin.py:190} INFO - [2024-12-13T03:58:20.754-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-12-13T03:58:20.773-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.243 seconds
+[2024-12-13T04:00:48.008-0800] {processor.py:186} INFO - Started process (PID=92823) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T04:00:48.013-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-12-13T04:00:48.015-0800] {logging_mixin.py:190} INFO - [2024-12-13T04:00:48.015-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T04:00:48.145-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T04:00:48.380-0800] {logging_mixin.py:190} INFO - [2024-12-13T04:00:48.379-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T04:00:48.415-0800] {logging_mixin.py:190} INFO - [2024-12-13T04:00:48.415-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-12-13T04:00:48.463-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.461 seconds
+[2024-12-13T05:52:01.186-0800] {processor.py:186} INFO - Started process (PID=93717) to work on /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T05:52:01.187-0800] {processor.py:914} INFO - Processing file /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-12-13T05:52:01.188-0800] {logging_mixin.py:190} INFO - [2024-12-13T05:52:01.188-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T05:52:01.266-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-13T05:52:01.368-0800] {logging_mixin.py:190} INFO - [2024-12-13T05:52:01.368-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T05:52:01.378-0800] {logging_mixin.py:190} INFO - [2024-12-13T05:52:01.377-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-12-13T05:52:01.397-0800] {processor.py:208} INFO - Processing /Users/machine/Velocity_railway/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.217 seconds
