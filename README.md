@@ -1,85 +1,105 @@
-Business Introduction --
-Velocity Railways is a leading railway operator based in the United Kingdom, dedicated to providing
-efficient, reliable, and timely train services across the nation. The company leverages cutting-edge
-technology and real-time data integration to ensure its
-customers receive up-to-the-minute
-information on train schedules, departures, and arrivals.
-10Alytics
--- PROBLEM STATEMENT --
-The company is currently facing challenges in providing accurate and real-time train departure information to its passengers.
-The current system
-provides scheduled
-departure times but often lacks real-time updates on delays, cancellations, or other disruptions. The company wants to create a better pipeline that fetches real time data from a source and saves it on a database for further usages. Moreover, the company's existing data pipeline suffers from:
-• Data quality issues due to incorrect or incomplete real-time updates.
-• Inconsistent performance in stream processing and validation.
-• Single-point failures with only one database for storage, causing outages when the system goes down.
-• Lack of real-time monitoring and alerting, making it difficult to detect pipeline failures or performance bottlenecks.
-8810Alytics
-To address these issues, the company wants to build a robust, scalable data pipeline that does the following:
-• processes both scheduled and real-time train departure data
-• validates the data dynamically,
-• stores it in two different databases for high availability.
-The system should be fully orchestrated, monitored, and fault-tolerant.
-8810 Alytics
-The proposed solution should:
+# Velocity Railways Real-Time Train Departure Data Pipeline
 
-1. Provide accurate real-time train departure information by integrating a data source that
-provides scheduled timetables, real-time train movements,
+## Introduction
+Velocity Railways is a leading railway operator in the United Kingdom, committed to delivering efficient, reliable, and timely train services. To enhance customer experience, we are developing a **real-time train departure data pipeline** that ensures passengers receive accurate and up-to-the-minute information on train schedules, departures, and arrivals.
 
+## Problem Statement
+The current system provides scheduled departure times but lacks real-time updates on delays, cancellations, and disruptions. Additionally, the existing data pipeline suffers from:
+- **Data quality issues** due to incorrect or incomplete real-time updates.
+- **Inconsistent performance** in stream processing and validation.
+- **Single-point failures**, with only one database for storage, leading to outages.
+- **Lack of real-time monitoring and alerting**, making it difficult to detect pipeline failures or bottlenecks.
 
-2. Ensure high data quality using a robust validation framework that dynamically adapts to
-changes in data sources and formats.
+## Solution Overview
+The proposed solution aims to build a **robust, scalable, and fault-tolerant data pipeline** that:
+- Processes both scheduled and real-time train departure data.
+- Dynamically validates data quality.
+- Stores data in **two separate databases** (Azure PostgreSQL & Local PostgreSQL) for high availability.
+- Ensures full orchestration, monitoring, and fault tolerance.
 
+## Key Features
+1. **Accurate real-time train departure information** by integrating scheduled timetables and real-time train movements.
+2. **Dynamic data validation** using a robust framework adaptable to changing data sources and formats.
+3. **High availability and fault tolerance** with automatic failover to a backup database.
+4. **Real-time data processing** to support dynamic dashboards, anomaly detection, and decision-making.
+5. **Efficient orchestration** of data ingestion, validation, and storage with real-time monitoring.
 
-3. Be fault-tolerant and highly available, ensuring the system can seamlessly failover to
+## Tech Stack
+- **Requests** (for API calls)
+- **Apache Flink** (for real-time data processing)
+- **Great Expectations** (for data validation)
+- **Airflow** (for orchestration)
+- **Azure PostgreSQL & Local PostgreSQL** (for storage)
+- **Python** (for scripting and pipeline management)
 
-backup systems (local PostgreSQL) if the primary system (Azure PostgreSQL) fails.
+## High-Level Architecture
+### 1. Ingestion Layer
+- Data is pulled from the **Train Station Timetables API**.
+- **Apache Flink** processes real-time data streams.
 
-4. Enable real-time data processing to support dynamic dashboards, anomaly detection,
-and decision-making.
+### 2. Data Validation
+- **Great Expectations** ensures data integrity before storage.
+- Validation results are logged and monitored.
 
+### 3. Data Duplication & Storage
+- **Python scripts** duplicate data and store it in both **Azure PostgreSQL** and **Local PostgreSQL**.
 
-5. Orchestrate complex data flows that support real-time data enrichment, processing,
-validation, and storage in a reliable, scalable manner.Tech Stack
-• Requests
-• Apache Flink
-• Great Expectations
-• Airflow
-• Azure
-• PostgreSQL
-• Python
-88° 10Alytics
-Highlevel Architecture
-1. Ingestion Layer:
-• Data pulled from train schedule APIs.
-• Real-time data collected through Flink.
-2. Data Validation:
-• Great Expectations runs locally to validate ingested data.
-• Validation results are logged and monitored before proceeding.
-3. Data Duplication:
-• Python scripts handle the duplication process, sending the data to both Azure PostgreSQL and local PostgreSQL for backup.
-4. Orchestration:
-• Airflow locally orchestrates the full pipeline, managing the ingestion, validation, and duplication of data.
-Highlevel Architecture (cntd)
-1. Monitoring & Failure Handling:
-• If there's any issue with inserting data into Azure PostgreSQL, the data is safely backed up in local PostgreSQL, and notifications are triggered via Airflow. Data Source: Train Station Timetables API
-The Train Station Timetables API provided by TransportAPI allows users to access realtime train departure information for specified train stations in the UK.
-The endpoint GET /v3/uk/train/station_timetables/fid}.json returns a comprehensive timetable of train departures within a specified time window, including scheduled and realtime updates when the live=true parameter is set.
-https://developer.transportapi.com/docs#get-/v3/uk/train/station_timetables/-id-.json
-88 10Alytics
-Key Features
-• Timetable Information: Retrieves both scheduled departures and live updates for trains, offering a complete picture of train movements at a station.
-• Custom Time Windows: Users can specify a time window by providing a datetime timestamp along with from_offset and to_offset parameters to tailor the results to their needs.
-• Data Sources: The real-time information is sourced from open data systems such as the Network Rail TRUST system, Train Movements, and VSTP data feeds, ensuring accuracy and timeliness.
-• Comprehensive Coverage: The API includes not only departures from the station of interest but also arrivals and passing trains, making it versatile for various applications such as mobile apps or web displays.
-88 10Alytics
-Highlevel Architecture
-• Real-Time Data Ingestion: We will use Binance WebSocket API to fetch live market data for multiple cryptocurrency pairs
-• Data Streaming with Google Pub/Sub: Google Pub/Sub will act as the messaging service to handle the streaming within the GCP environment
-• Data Processing with Apache Beam: We will use Apache Beam - a real-time processing framework (via Cloud Dataflow) to transform, clean, and prepare the data.
-• Storage in BigQuery: BigQuery will serve as the real-time data warehouse, allowing the company to query the latest price data and historical market information for analytics and reporting.
-• Scalable and Cloud-Native: The entire architecture will seat on Google Cloud to ensure low maintenance overhead and adaptability for future requirements.Data Validation
-Great Expectations ensures data quality by implementing dynamic, multi-level validation checks. Use Great Expectations to:
-• Scheduled Timetables: Validate train departure times against known formats, ensuring the data makes sense (e.g., valid station codes and times).
-• Real-Time Updates: Check if real-time data matches its expected schema and correlates with historical patterns (e.g., a sudden cancellation might trigger an alert).
-• External Data (Weather/Social Media): Ensure that the weather
+### 4. Orchestration
+- **Apache Airflow** manages the data pipeline workflows.
+
+### 5. Monitoring & Failure Handling
+- If **Azure PostgreSQL** fails, data is backed up in **Local PostgreSQL**.
+- **Airflow triggers alerts** in case of failures.
+
+## Data Source: Train Station Timetables API
+- API Endpoint: [`GET /v3/uk/train/station_timetables/{id}.json`](https://developer.transportapi.com/docs#get-/v3/uk/train/station_timetables/-id-.json)
+- Provides real-time train departure information using:
+  - **Scheduled Timetables**
+  - **Live Updates**
+  - **Custom Time Windows**
+  - **Comprehensive Coverage** (departures, arrivals, and passing trains)
+
+## Data Validation with Great Expectations
+- **Scheduled Timetables**: Ensures correct formats (e.g., valid station codes and times).
+- **Real-Time Updates**: Checks schema consistency and historical correlation.
+- **External Data (Weather/Social Media)**: Enhances data reliability.
+
+## Deployment
+### **Prerequisites**
+1. **Python 3.8+** installed.
+2. **Apache Flink, Airflow, PostgreSQL** set up.
+3. **TransportAPI key** for accessing real-time train data.
+
+### **Setup Instructions**
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/your-repo/velocity-railways-pipeline.git
+   cd velocity-railways-pipeline
+   ```
+2. **Install dependencies:**
+   ```sh
+   pip install -r requirements.txt
+   ```
+3. **Configure Airflow:**
+   ```sh
+   airflow db init
+   airflow webserver &
+   airflow scheduler &
+   ```
+4. **Run the pipeline:**
+   ```sh
+   python run_pipeline.py
+   ```
+
+## Future Enhancements
+- Integration with additional **data sources** (e.g., weather data for delay predictions).
+- Advanced **real-time analytics** and anomaly detection.
+- Migration to **fully managed cloud solutions** for scalability.
+
+## Contributors
+- **Velocity Railways Data Engineering Team**
+- **10Alytics Consulting**
+
+## License
+This project is licensed under the MIT License.
+
